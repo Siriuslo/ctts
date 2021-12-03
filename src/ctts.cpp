@@ -284,8 +284,6 @@ int main()
         cout << "Error opening video stream or file" << endl;
         return -1;
     }
-
-
     double dt = 0.25;
 	timer clock(dt);
 	clock.reset();
@@ -298,8 +296,8 @@ int main()
 
 	}
 	
-	getplateno("/home/wonder/ctts/images/read.png", "fast");
-	cout<<plate_result<<endl;	
+	// getplateno("/home/wonder/ctts/images/read.png", "fast");
+	// cout<<plate_result<<endl;	
 
 
 
